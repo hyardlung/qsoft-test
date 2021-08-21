@@ -1,0 +1,9 @@
+.search__icon {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 680px) {
+  .search__icon {
+    width: 21px;
+  }
+}

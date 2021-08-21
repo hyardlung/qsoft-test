@@ -1,0 +1,18 @@
+.header__search {
+  position: relative;
+  box-sizing: border-box;
+  padding: 8px 11px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #EBEBF1;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 680px) {
+  .header__search {
+    padding: 13px 0 12px;
+    order: 3;
+    border: none;
+    border-radius: 0;
+  }
+}

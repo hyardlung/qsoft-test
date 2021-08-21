@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./pages/index.css"/>
+  </head>
+  <body class="root">
+    <header class="header">
+      <div class="container header__container">
+        <a href="!#" class="logo">
+          <img src="images/logo.svg" alt="логотип" class="logo__img"/>
+        </a>
+        <!-- /logo -->
+
+        <form action="" class="search header__search">
+          <img src="./images/search.svg" alt="" class="search__icon"/>
+            <input
+              type="search"
+              class="search__input"
+              placeholder="Найти..."
+            />
+        </form>
+
+        <div class="separator"></div>
+        <div class="horizontal-separator header__horizontal-separator"></div>
+        
+        <button type="button" class="profile-button header__profile-button">
+          <span class="profile-button__name">Константин</span>
+          <img src="./images/profile-img-min.jpeg" alt="фото пользователя" class="profile-button__photo">
+          <img src="./images/profile-icon.svg" alt="иконка профиля" class="profile-button__icon">
+        </button>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+      <section class="partners">
+        <div class="container partners__container">
+          <h1 class="section-title partners__section-title">Наши партнёры</h1>
+          
+          <ul class="partners__grid">
+            <li class="partner">
+              <img src="./images/partners/Acronis_logo.svg" alt="логотип Acronis" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Chick-fil-A_logo.svg" alt="логотип Chick Fil A" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Dior_logo.svg" alt="логотип Dior" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Nintendo_Switch_horizontal_logo.svg" alt="логотип Nintendo Switch" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/Rainbow_Studios_logo.svg" alt="логотип Rainbow Studios" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/UEFA_logo.svg" alt="логотип UEFA" class="partner__logo">
+            </li>
+            <li class="partner">
+              <img src="./images/partners/SpaceX_logo.svg" alt="логотип SpaceX" class="partner__logo">
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- /content -->
+
+
+  </body>
+</html>

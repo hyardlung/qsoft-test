@@ -1,0 +1,20 @@
+.section-title {
+  margin: 0;
+  font-size: calc((100vw - 768px)/(1440 - 768) * (36 - 28) + 28px);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #121920;
+}
+
+@media screen and (min-width: 1440px) {
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-title {
+    font-size: 28px;
+  }
+}

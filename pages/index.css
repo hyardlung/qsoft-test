@@ -1,0 +1,40 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+
+@import url('../blocks/root/root.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/header/__container/header__container.css');
+
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__search/header__search.css');
+
+@import url('../blocks/logo/__img/logo__img.css');
+
+@import url('../blocks/search/search.css');
+@import url('../blocks/search/__icon/search__icon.css');
+@import url('../blocks/search/__input/search__input.css');
+
+@import url('../blocks/notifier/notifier.css');
+@import url('../blocks/notifier/_hidden/notifier_hidden.css');
+
+@import url('../blocks/separator/separator.css');
+@import url('../blocks/horizontal-separator/horizontal-separator.css');
+@import url('../blocks/header/__horizontal-separator/header__horizontal-separator.css');
+
+@import url('../blocks/profile-button/profile-button.css');
+@import url('../blocks/header/__profile-button/header__profile-button.css');
+@import url('../blocks/profile-button/__name/profile-button__name.css');
+@import url('../blocks/profile-button/__photo/profile-button__photo.css');
+@import url('../blocks/profile-button/__icon/profile-button__icon.css');
+
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/partners/partners.css');
+@import url('../blocks/partners/__grid/partners__grid.css');
+
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/partners/__section-title/partners__section-title.css');
+
+@import url('../blocks/partner/partner.css');
+@import url('../blocks/partner/__logo/partner__logo.css');

@@ -1,0 +1,13 @@
+.separator {
+  display: block;
+  margin-left: auto;
+  height: 100%;
+  width: 1px;
+  background-color: #EBEBF1;
+}
+
+@media screen and (max-width: 680px) {
+  .separator {
+    display: none;
+  }
+}

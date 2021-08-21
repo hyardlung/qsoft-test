@@ -1,0 +1,11 @@
+.header__horizontal-separator {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .header__horizontal-separator {
+    display: block;
+    margin-top: 5px;
+    padding: 0 -20px;
+  }
+}

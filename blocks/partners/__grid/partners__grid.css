@@ -1,0 +1,20 @@
+.partners__grid {
+  padding: 0;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: calc((100vw - 768px)/(1440 - 768) * (30 - 20) + 20px);
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .partners__grid {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .partners__grid {
+    gap: 20px;
+  }
+}

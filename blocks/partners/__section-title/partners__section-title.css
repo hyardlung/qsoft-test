@@ -1,0 +1,21 @@
+.partners__section-title {
+  margin: 78px 0 39px;
+}
+
+@media screen and (max-width: 1440px) {
+  .partners__section-title {
+    margin-bottom: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partners__section-title {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .partners__section-title {
+    margin: 75px 0 38px;
+  }
+}

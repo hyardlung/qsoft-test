@@ -1,0 +1,15 @@
+.horizontal-separator {
+  display: none;
+}
+
+@media screen and (max-width: 680px) {
+  .horizontal-separator {
+    position: absolute;
+    content: '';
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #BBC4D680;
+  }
+}

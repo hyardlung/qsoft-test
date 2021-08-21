@@ -1,0 +1,22 @@
+.header__profile-button {
+  position: relative;
+  margin-left: -38px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__profile-button {
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header__profile-button {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header__profile-button {
+    margin-bottom: -6px;
+  }
+}

@@ -1,0 +1,9 @@
+.partners {
+  padding: 0 calc(7.8125vw - 30px);
+}
+
+@media screen and (max-width: 1440px) {
+  .partners {
+    padding: 0 20px;
+  }
+}

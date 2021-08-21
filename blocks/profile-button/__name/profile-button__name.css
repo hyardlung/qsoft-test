@@ -1,0 +1,19 @@
+.profile-button__name {
+  margin-right: 12px;
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: 0.03em;
+  color: #768298;
+}
+
+@media screen and (max-width: 1440px) {
+  .profile-button__name {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile-button__name {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+.profile-button  {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  transition: all .3s;
+}
+
+.profile-button:hover {
+  filter: grayscale();
+}
+
+@media screen and (max-width: 680px) {
+  .profile-button {
+    margin-right: 0;
+    flex-basis: 0%;
+    order: 2;
+  }
+}
