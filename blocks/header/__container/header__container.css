@@ -23,7 +23,7 @@
 @media screen and (max-width: 680px) {
   .header__container {
     flex-wrap: wrap;
-    padding-top: 16px;
+    padding-top: 17px;
     row-gap: 12px;
   }
 }

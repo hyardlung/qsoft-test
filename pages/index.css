@@ -12,6 +12,7 @@
 @import url('../blocks/logo/__img/logo__img.css');
 
 @import url('../blocks/search/search.css');
+@import url('../blocks/search/__button/search__button.css');
 @import url('../blocks/search/__icon/search__icon.css');
 @import url('../blocks/search/__input/search__input.css');
 

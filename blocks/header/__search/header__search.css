@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 680px) {
   .header__search {
-    padding: 13px 0 12px;
+    padding: 13px 0 8px;
     order: 3;
     border: none;
     border-radius: 0;
