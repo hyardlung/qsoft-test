@@ -1,0 +1,24 @@
+.search__button {
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.search__button::after {
+    opacity: 0;
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #f95a59;
+    transition: all .3s;
+}
+
+.search__button:hover:after {
+    opacity: 1;
+}
